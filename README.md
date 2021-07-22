@@ -65,7 +65,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Install
 > https://learnku.com/laravel/wikis/25560
-```
+
 为避免 docker 数据目录占用系统盘空间，需要修改 docker 数据目录至数据盘。
 `vim /etc/docker/daemon.json ` 
 ```
