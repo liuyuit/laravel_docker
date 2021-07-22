@@ -76,6 +76,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ```
 systemctl restart docker
 ```
+```
 cp .env.example .env
 vim .env
 
