@@ -3,7 +3,7 @@ version: "3"
 services:
   php:
     build:
-      context: - ./service/dockerfile/php
+      context: ./service/dockerfile/php
     container_name: thermometer_php
     working_dir: /var/www/thermometer
     volumes:
@@ -25,7 +25,7 @@ services:
   nginx:
     container_name: thermometer_nginx
     build:
-      context: - ./service/dockerfile/nginx
+      context: ./service/dockerfile/nginx
     volumes:
       - ./service/config/nginx:/etc/nginx:cached
       - ./service/log/nginx:/var/log/nginx:cached
@@ -39,7 +39,7 @@ services:
 
   redis:
     build:
-      context: - ./service/dockerfile/redis
+      context: ./service/dockerfile/redis
     container_name: thermometer_redis
     ports:
       - 6379:6379
