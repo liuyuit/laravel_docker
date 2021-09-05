@@ -1,4 +1,4 @@
-*
-!dockerfile/
-!config.example/
-!.gitignore
+/*
+!/dockerfile/
+!/config.example/
+!/.gitignore
